@@ -1,11 +1,15 @@
-body,html {
+body,
+html {
     font-family: 'Poiret One', cursive;
 }
+
+
 /*--header image--*/
+
 header {
     background: url(images/head.jpg);
     opacity: 0.7;
-    filter:(opacity=50);
+    filter: (opacity=50);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -13,25 +17,28 @@ header {
 }
 
 .fa-sort-up {
-  display: none;
-  position: fixed;
-  bottom: 15px;
-  right: 30px;
-  z-index: 99;
-  font-size: 38px;
-  border: none;
-  outline: none;
-  background-color: rgb(14, 11, 11);
-  color: white;
-  cursor: pointer;
-  padding: 5px;
-  
+    display: none;
+    position: fixed;
+    bottom: 15px;
+    right: 30px;
+    z-index: 99;
+    font-size: 38px;
+    border: none;
+    outline: none;
+    background-color: rgb(14, 11, 11);
+    color: white;
+    cursor: pointer;
+    padding: 5px;
 }
+
 .fa-layer-group {
     font-size: 40px;
     color: rgb(230, 109, 149);
 }
+
+
 /*--Navbar links--*/
+
 .list-nav a {
     text-decoration: none;
     color: rgb(0, 0, 0);
@@ -39,24 +46,78 @@ header {
     padding: 14px;
     transition: 1.7s ease-out;
     background-color: white;
-    
-   }
-   .list-nav a:hover {
-       color:black;
-       background-color: rgb(231, 154, 179);
-       transition: 1s ease-in;
-   }
-   .list-nav {
-       font-family:'Rajdhani', sans-serif;
-       font-weight: 700;
-   }
-   /*--Top Navbar--*/
+}
+
+.list-nav a:hover {
+    color: black;
+    background-color: rgb(231, 154, 179);
+    transition: 1s ease-in;
+}
+
+.list-nav {
+    font-family: 'Rajdhani', sans-serif;
+    font-weight: 700;
+}
+
+
+/*--Top Navbar--*/
+
 .navbar {
     overflow: hidden;
     position: fixed;
     top: 0;
     width: 100%;
-    background-color:transparent white;
+    background-color: transparent white;
     border-bottom: 2px black;
-  }
-  
+}
+
+.contact-us {
+    width: 70%;
+    text-align: center;
+    padding-bottom: 9%;
+    color: #9f9f9f;
+}
+
+.form-control::placeholder {
+    color: #9f9f9f;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+}
+
+#userName {
+    border-radius: 0px;
+    color: #000;
+    font-family: 'Gabriela', serif;
+    font-weight: 700;
+}
+
+#inputEmail {
+    border-radius: 0px;
+    color: #000;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+}
+
+#userMessage {
+    border-radius: 0px;
+    color: #000;
+    font-family: 'Gabriela', serif;
+    ;
+    font-weight: 700;
+}
+
+#submit {
+    background: #cdcdcd;
+    border: solid #b4b4b4 1px;
+    border-radius: 50px;
+    color: #4a4741;
+    font-family: 'Sarabun', sans-serif;
+    font-weight: 700;
+    text-align: center;
+}
+
+#submit:hover {
+    background: #8ebea7;
+    border: solid #4eb583 1px;
+    color: #4a4741;
+}
