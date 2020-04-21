@@ -15,7 +15,22 @@ header {
     background-size: cover;
     min-height: 100vh;
 }
+.container.top {
+    color: white;
+    text-align: center;
+    padding-top: 150px;
 
+}
+h1  {
+  font-family: 'Rajdhani';
+  font-style: bold;
+  font-weight: 400;
+  font-display: swap;
+  font-size: 60px;
+}
+.top3 {
+    color: black;
+}
 .fa-sort-up {
     display: none;
     position: fixed;
@@ -59,6 +74,49 @@ header {
     font-weight: 700;
 }
 
+/*--icon down--*/
+
+.bounce {
+    font-size: 40px;
+    color: rgb(95, 13, 75);
+    padding-top: 40px;
+    display: inline-block;
+    position: relative;
+    -moz-animation: bounce 0.5s infinite linear;
+    -o-animation: bounce 1s infinite linear;
+    -webkit-animation: bounce 0.5s infinite linear;
+    animation: bounce 1s infinite linear;
+  }
+  @-webkit-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-moz-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-o-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @-ms-keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
+  @keyframes bounce {
+      0% { top: 0; }
+      50% { top: -0.2em; }
+      70% { top: -0.3em; }
+      100% { top: 0; }
+  }
 
 /*--Top Navbar--*/
 
@@ -70,7 +128,7 @@ header {
     background-color: transparent white;
     border-bottom: 2px black;
 }
-
+/*--contact section*/
 .contact-us {
     width: 70%;
     text-align: center;
@@ -120,4 +178,8 @@ header {
     background: #8ebea7;
     border: solid #4eb583 1px;
     color: #4a4741;
+}
+/*--Section 1--*/
+.section1 {
+     color: wheat;
 }
